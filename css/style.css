@@ -1,0 +1,386 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+body{
+    font-family: IRANSans;
+    font-weight: normal;
+    direction: rtl;
+}
+a,a:active,a:focus,a:hover,a:link,a:visited{
+    text-decoration: none;
+}
+.mr {
+    background: url('../images/spritesheet.png') no-repeat;
+    display: inline-block;
+}
+
+.mr-dedicated {
+    width: 118px;
+    height: 139px;
+    background-position: -5px -5px;
+}
+
+.mr-dedicated-pakages {
+    width: 382px;
+    height: 381px;
+    background-position: -133px -5px;
+}
+
+.mr-domain {
+    width: 121px;
+    height: 140px;
+    background-position: -525px -5px;
+}
+
+.mr-email {
+    width: 21px;
+    height: 16px;
+    background-position: -656px -5px;
+    margin:5px;
+}
+
+.mr-email-2 {
+    width: 26px;
+    height: 16px;
+    background-position: -687px -5px;
+}
+
+.mr-enamad {
+    width: 103px;
+    height: 140px;
+    background-position: -656px -31px;
+}
+
+.mr-instagram {
+    width: 37px;
+    height: 37px;
+    background-position: -5px -181px;
+}
+
+.mr-linkdin {
+    width: 38px;
+    height: 37px;
+    background-position: -52px -181px;
+}
+
+.mr-logo {
+    width: 233px;
+    height: 65px;
+    background-position: -525px -181px;
+    margin-top: 6px;
+}
+
+.mr-map {
+    width: 16px;
+    height: 22px;
+    background-position: -100px -181px;
+}
+
+.mr-mrsoftware-logo {
+    width: 38px;
+    height: 43px;
+    background-position: -5px -256px;
+}
+
+.mr-namad {
+    width: 102px;
+    height: 140px;
+    background-position: -525px -256px;
+}
+
+.mr-phone {
+    margin: 4px;
+    width: 17px;
+    height: 17px;
+    background-position: -53px -256px;
+}
+
+.mr-phone-2 {
+    width: 16px;
+    height: 16px;
+    background-position: -723px -5px;
+}
+
+.mr-shared-host {
+    width: 129px;
+    height: 140px;
+    background-position: -637px -256px;
+}
+
+.mr-shared-host-pakages {
+    width: 385px;
+    height: 385px;
+    background-position: -776px -5px;
+}
+
+.mr-telegram {
+    width: 37px;
+    height: 33px;
+    background-position: -5px -400px;
+}
+
+.mr-twitter {
+    width: 49px;
+    height: 40px;
+    background-position: -52px -400px;
+}
+
+.mr-vps {
+    width: 141px;
+    height: 141px;
+    background-position: -111px -400px;
+}
+
+.mr-vps-pakage {
+    width: 380px;
+    height: 381px;
+    background-position: -776px -400px;
+}
+
+header{
+    width: 100%;
+    float: right;
+}
+.top-bar{
+    height:41px;
+    width: 100%;
+    background: #e9e9e9;
+    float: right;
+}
+.cp-btn{
+    width: 100px;
+    height:28px;
+    float: left;
+    border-radius: 5px;
+    background: #66c6b9 ;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 5px;
+}
+.top-bar .col-md-6 > span{
+    top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.top-menu{
+    width: 100%;
+    float: right;
+}
+.top-menu ul{
+    margin-top: 15px;
+}
+.top-menu ul li{
+    float: right;
+    margin: 10px;
+    list-style: none;
+}
+.top-menu li a{
+    font-size: 16px;
+    color: #555555;
+}
+.domains{
+    float: right;
+    width: 100%;
+    background: url("../images/domain-bg.jpg") top center no-repeat fixed;
+    background-size: cover;
+    height:  100vh;
+}
+.domains .title{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    /*margin-top: 22%;*/
+    margin-top: 22vh;
+}
+.domains .details{
+    font-size: 18px;
+    color: #fff;
+    line-height: 31px;
+    text-align: center;
+    width: 100%;
+    margin-top: 51px;
+}
+.domain-register{
+    position: relative;
+    margin-top: 80px;
+}
+.domain-register label{
+    color: #6cbc35;
+    position: absolute;
+    top: 11px;
+    left: 25px;
+    direction: ltr;
+}
+.domain-register input[type=text]{
+    /*width: 85%;*/
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    height:40px;
+    border:none;
+    box-shadow: 0 0 7px -1px #555555;
+    padding-left: 55px;
+    text-align: center;
+}
+.domain-register button[type=button]{
+    /*width: 10%;*/
+    width: 100%;
+    float: right;
+    border-radius: 5px;
+    background: #263238;
+    height:40px;
+    border:none;
+    box-shadow: 0 0 7px -1px #555555;
+    text-align: center;
+    color: #fff;
+}
+.services{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #e4e6e9;
+    width: 100%;
+    float: right;
+}
+.services .box{
+    background: #fff;
+    border-radius: 5px;
+    padding:25px 10px;
+    text-align: center;
+    min-height:325px;
+    height:325px;
+    margin-bottom: 15px;
+}
+.services .box h2{
+    font-size: 20px;
+}
+.note1{
+    float: right;
+    width: 100%;
+    background: #66c6b9 ;
+}
+.note1 .title{
+    color: #fff;
+    float: right;
+    font-size: 2em;
+    padding: 10px 0;
+}
+.note1 .note1-btn{
+    color: #555555;
+    padding: 7px;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    float: left;
+    margin: 13px 0;
+}
+.dedicated{
+    width: 100%;
+    background: #ebebeb ;
+    padding-top: 100px;
+    float: right;
+}
+.packages p{
+    font-size: 16px;
+    color: #555555;
+    line-height: 30px;
+    width: 100%;
+    float: right;
+}
+.packages .plans{
+    float: right;
+    width: 100%;
+}
+.packages .plans .plan{
+    float: right;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    height:99px;
+    position: relative;
+    overflow: hidden;
+}
+.packages .plans .plan::after{
+    position: absolute;
+    width: 80px;
+    height:80px;
+    border-radius: 100%;
+    top:5px;
+    right: -20px;
+    content: " ";
+    background: #66c6b9;
+}
+.packages .plans .plan h2{
+    padding-right: 67px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.packages .plans .plan ul{
+    float: right;
+    padding-right: 95px;
+    width: 100%;
+}
+.packages .plans .plan ul li{
+    float: right;
+    width: 50%;
+    margin-bottom: 10px;
+    list-style: none;
+    color: #555555;
+}
+.packages .plans .plan ul li span{
+    color: #000;
+}
